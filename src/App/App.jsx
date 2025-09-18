@@ -17,19 +17,22 @@ function App() {
       <BrowserRouter>
           <nav>
               <Link to="/">
-                <a href="/music" target="_self">
+                {/* <a href="/music" target="_self">
                   <img src={homeIcon} className="logo" alt="Home icon" />
-                </a>
+                </a> */}
+                Home
               </Link>
               <Link to="/music">
-                <a href="/music" target="_self">
+                {/* <a href="/music" target="_self">
                   <img src={musicIcon} className="logo" alt="Music icon" />
-                </a>
+                </a> */}
+                Music
               </Link>
               <Link to="/books">
-                <a href="/books" target="_self">
+                {/* <a href="/books" target="_self">
                   <img src={bookIcon} className="logo" alt="Book icon" />
-                </a>
+                </a> */}
+                Books
               </Link>
           </nav>
 

@@ -1,2 +1,2 @@
-# personal-website
-Personal website (built for fsab)
+# fsab_bootcamp
+Here's the website I built for FSAB's bootcamp! It mainly lets you give me book/song recommendations.

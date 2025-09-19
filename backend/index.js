@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 
 import admin from "firebase-admin";
-import serviceAccount from "./util/serviceAccountKey.json" with { type: "json" };
+import serviceAccount from "./config/serviceAccountKey.json" with { type: "json" };
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
